@@ -1,0 +1,12 @@
+name: streamlit-cancer-predict
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit
+    - pandas
+    - scikit-learn
+    - matplotlib
+    - numpy
